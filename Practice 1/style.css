@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.blocker {
+  margin: 10px;
+  padding: 10px;
+  width: 20vw;
+  height: 50vh;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #e9d8a6;
+  font-size: 20px;
+}
+
+.image {
+  height: 55%;
+  width: 98%;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+  object-fit: cover;
+}
+
+.capsule {
+  font-size: 0.73em;
+  border: 2px solid black;
+  border-radius: 10px;
+  /* margin-top: 10px; */
+  margin-top: 1.5vh;
+  /* margin-right: 5px; */
+  margin-right: 0.5vw;
+  padding: 2px 4px;
+  display: inline-block;
+}
+
+h2 {
+  font-family: cursive, "Times New Roman", Times, serif;
+  margin-top: 7px;
+  font-size: 1em;
+}
+
+p {
+  font-size: 0.78em;
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 0.55em;
+  border-radius: 15px;
+  background-color: khaki;
+  font-weight: bold;
+  color: darkgreen;
+}
+
+@media (max-width: 600px) {
+  .blocker {
+    width: 80vw; /* Make it almost full width on small screens */
+    height: 80vw; /* Let height adjust based on content */
+    padding: 15px;
+    font-size: 16px; /* Adjust font size */
+  }
+
+  .image {
+    height: 60%; /* image scale  */
+    width: 98%; /*  width inside blocker */
+  }
+
+  .capsule {
+    font-size: 0.9em;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  button {
+    font-size: 0.75em;
+    padding: 10px;
+    border-radius: 20px;
+  }
+}
